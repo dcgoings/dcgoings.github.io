@@ -1,42 +1,27 @@
-$(document).ready( function() {
+$(document).ready(function() {
 
-	// Logo
-	var $logo 	= $('#logo');
-	 if (location.href.indexOf("#") != -1) {
-        if(location.href.substr(location.href.indexOf("#"))!='#about'){
-        	$logo.show();
-        }
-    }
-    
-	// Show logo 
-	$('#tab-container .tab a').click(function() {
-	  $logo.slideDown('slow');
+	$(".scroll").click(function(event) {
+		event.preventDefault();
+		$("html,body").animate({
+			scrollTop: $(this.hash).offset().top - $(".navbar-default").height()
+		}, 1000);
 	});
-	// Hide logo
-	$('#tab-about').click(function() {
-	  $logo.slideUp('slow');
-	});	
-function animMeter(){
-    $(".meter > span").each(function() {
-                $(this)
-                    .data("origWidth", $(this).width())
-                    .width(0)
-                    .animate({
-                        width: $(this).data("origWidth")
-                    }, 1200);
-            });
-}
-animMeter();
 
-      $('#tab-container').easytabs({
-        animate			: true,
-        updateHash		: true,
-        transitionIn	: 'slideDown',
-        transitionOut	: 'slideUp',
-        animationSpeed	: 600,
-        tabActiveClass	: 'active'}).bind('easytabs:midTransition', function(event, $clicked, $targetPanel){
-            if($targetPanel.selector=='#resume'){
-                    animMeter();
-            }
-        });
-    });
+	$(document).on('click', '.navbar-collapse.in', function(e) {
+		if ($(e.target).is('a')) {
+			$(this).collapse('hide');
+		}
+	});
+});
+
+/** navbar height back up
+	
+	$("#toplinks").on('click','a', function(event){ 
+    event.preventDefault();
+    var o =  $( $(this).attr("href") ).offset();   
+    var sT = o.top - $(".navbar-header").outerHeight(true); // get the fixedbar height
+    // compute the correct offset and scroll to it.
+    window.scrollTo(0,sT);
+	 });
+
+**/
