@@ -52,16 +52,10 @@
 }
 
 
-/** 
-http://res.cloudinary.com/dcgoings/image/upload/v1466984946/wallhaven-233516_-_Copy-min_btziyc.jpg
-http://res.cloudinary.com/dcgoings/image/upload/v1467248797/waves-mobile_2_qlf03w.jpg
-**/
-
-
 /** home **/
 
 #home {
-  background: url('http://res.cloudinary.com/dcgoings/image/upload/v1467248797/waves-mobile_2_qlf03w.jpg') no-repeat center center fixed;
+  background: url('http://res.cloudinary.com/dcgoings/image/upload/v1466984946/wallhaven-233516_-_Copy-min_btziyc.jpg') no-repeat center center fixed;
   /*scroll vs fixed?*/
   background-size: cover;
   text-align: center;
@@ -410,6 +404,10 @@ footer {
   #portfolio h3 {
     font-size: 16px;
   }
+  #home {
+    background: url("http://res.cloudinary.com/dcgoings/image/upload/v1467251207/waves-mobile_2_vin28o.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -426,17 +424,6 @@ footer {
   }
   .navbar-default .navbar-nav>li>a {
     padding: 0px 20px 9px 0;
-  }
-  #home {
-    background: url("http://res.cloudinary.com/dcgoings/image/upload/v1466984946/wallhaven-233516_-_Copy-min_btziyc.jpg") no-repeat center center fixed;
-    background-size: cover;
-    text-align: center;
-    min-height: 100vh;
-    border-bottom: 1px solid #3d3d3d;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    color: white;
-    overflow: hidden;
   }
 }
 
