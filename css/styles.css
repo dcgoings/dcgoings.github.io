@@ -65,13 +65,6 @@
   overflow: hidden;
 }
 
-body
-{
-height:100%;
-overflow: scroll;
--webkit-overflow-scrolling: touch;
-}
-
 #home h1 {
 	font-size: 42px;
 	display: inline-block;
@@ -376,6 +369,13 @@ footer {
 
 /** media queries **/
 
+@media screen and (max-width: 667px) {
+    #home {
+    background: url("http://res.cloudinary.com/dcgoings/image/upload/v1467248797/waves-mobile_2_qlf03w.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
 @media screen and (max-width: 768px) {
 	.contact-icon {
 		padding: 30px 5px;
@@ -402,6 +402,7 @@ footer {
 	#portfolio h3 {
 		font-size: 16px;
 	}
+
 }
 
 @media screen and (min-width: 768px) {
