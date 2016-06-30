@@ -55,7 +55,7 @@
 
 #home {
   background: url('http://res.cloudinary.com/dcgoings/image/upload/v1466984946/wallhaven-233516_-_Copy-min_btziyc.jpg') no-repeat center fixed;
-  background-size: cover;
+  background-size: 100%;
   text-align: center;
   min-height: 100vh;
   border-bottom: 1px solid #3d3d3d;
