@@ -55,9 +55,15 @@
 /** home **/
 
 #home {
-  background: url('http://res.cloudinary.com/dcgoings/image/upload/v1466984946/wallhaven-233516_-_Copy-min_btziyc.jpg') no-repeat center center fixed;
+  background-image: url('http://res.cloudinary.com/dcgoings/image/upload/v1466984946/wallhaven-233516_-_Copy-min_btziyc.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   /*scroll vs fixed?*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-size: cover;
+  -o-background-size: cover;
   text-align: center;
   min-height: 100vh;
   border-bottom: 1px solid #3d3d3d;
@@ -405,9 +411,9 @@ footer {
     font-size: 16px;
   }
   #home {
-    background: url("http://res.cloudinary.com/dcgoings/image/upload/v1467251207/waves-mobile_2_vin28o.jpg") no-repeat center center fixed;
-    background-size: cover;
-  }
+  background-image: url('http://res.cloudinary.com/dcgoings/image/upload/v1467251207/waves-mobile_2_vin28o.jpg') no-repeat center center fixed;
+  background-size: cover;
+ 
 }
 
 @media screen and (min-width: 768px) {
