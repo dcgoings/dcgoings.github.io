@@ -410,10 +410,7 @@ footer {
   #portfolio h3 {
     font-size: 16px;
   }
-  #home {
-  background-image: url('http://res.cloudinary.com/dcgoings/image/upload/v1467251207/waves-mobile_2_vin28o.jpg') no-repeat center center fixed;
-  background-size: cover;
- 
+
 }
 
 @media screen and (min-width: 768px) {
