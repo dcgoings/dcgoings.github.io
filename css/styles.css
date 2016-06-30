@@ -378,6 +378,14 @@ footer {
 
 /** media queries **/
 
+@media screen and (max-width: 667px) {
+  #home {
+    background: url("http://res.cloudinary.com/dcgoings/image/upload/v1467248797/waves-mobile_2_qlf03w.jpg") no-repeat center center fixed;
+    height: 500px;
+
+  }
+}
+
 @media screen and (max-width: 768px) {
   .contact-icon {
     padding: 30px 5px;
