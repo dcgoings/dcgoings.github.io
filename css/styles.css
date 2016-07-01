@@ -266,10 +266,12 @@ end of previous thumbnail structure **/
   top: 0;
   left: 0;
   padding: 20% 0px 0px 0px;
-  background: rgba(1,22,39, .85);
+  background: rgba(0,21,50, .85);
   color:  #8BE8CB;
 }
-/**#2c3f52 #8BE8CB **/
+
+/**#2c3f52 #8BE8CB #1EECFC #E64B36 #69be28 **/
+
 .grid figcaption h3 {
   margin: 0;
   padding: 0;
@@ -354,7 +356,7 @@ end of previous thumbnail structure **/
 }
 
 .ion-paper-airplane:hover {
-  color: #bb0000;
+  color: #8BE8CB;
 }
 
 .fa-paper-plane:hover {
@@ -362,7 +364,7 @@ end of previous thumbnail structure **/
 }
 
 .fa-codepen:hover {
-  color: black;
+  color: #bb0000;
 }
 
 .fa-linkedin:hover {
@@ -374,7 +376,7 @@ end of previous thumbnail structure **/
 }
 
 .fa-github:hover {
-  color: black;
+  color: #3d3d3d;
 }
 
 
