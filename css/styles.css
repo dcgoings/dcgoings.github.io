@@ -199,6 +199,8 @@ hr {
 }
 
 
+
+
 /** previous thumbnail structure
 .thumbs ul>li {
 	position: relative;
@@ -264,16 +266,19 @@ end of previous thumbnail structure **/
   top: 0;
   left: 0;
   padding: 20% 0px 0px 0px;
-  background: #2c3f52;
-  color: #439dd9;
+  background: rgba(1,22,39, .85);
+  color:  #8BE8CB;
 }
-
+/**#2c3f52 #8BE8CB **/
 .grid figcaption h3 {
   margin: 0;
   padding: 0;
   color: #fff;
 }
 
+.grid figcaption span {
+  font-weight: 500;
+}
 .grid figcaption span:before {
   content: 'by '
 }
@@ -283,11 +288,11 @@ end of previous thumbnail structure **/
   padding: 5px 10px;
   border-radius: 2px;
   display: inline-block;
-  background: #439dd9;
+  background:  #8BE8CB;
   color: #fff;
 }
 
-.cs-style-1 figcaption {
+.grid figcaption {
   height: 100%;
   width: 100%;
   opacity: 0;
@@ -297,9 +302,17 @@ end of previous thumbnail structure **/
 }
 
 .cs-style-1 figcaption:hover {
-  opacity: .9;
+  opacity: 1;
 }
 
+.cs-style-1 figcaption:active {
+  opacity: 1;
+}
+
+.on-touch .cs-style-1 figcaption:hover figcaption,
+.cs-style-1 figure.cs-hover figcaption {
+  opacity: 1;
+}
 
 /** may not need 
 
@@ -327,7 +340,7 @@ end of previous thumbnail structure **/
 /** contact **/
 
 #contact {
-  background-color: #0b3658;
+  background-color: #011627;
   color: white;
   font-family: 'Raleway', sans-serif;
   text-align: center;
@@ -370,7 +383,7 @@ end of previous thumbnail structure **/
 footer {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
-  background-color: #0b3658;
+  background-color: #011627;
   color: white;
   text-align: center;
   padding: 5px;
