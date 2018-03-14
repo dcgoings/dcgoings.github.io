@@ -152,6 +152,11 @@ span {
   padding-bottom: 25px;
 }
 
+.anchor {
+  margin-top: -40px;
+  padding-top: 40px;
+}
+
 hr {
   background-color: #3d3d3d;
   height: 1px;
@@ -316,7 +321,7 @@ end of previous thumbnail structure **/
   opacity: 1;
 }
 
-/** may not need 
+/** may not need
 
 .cs-style-1 figcaption h3 {
 	margin-top: 70px;
