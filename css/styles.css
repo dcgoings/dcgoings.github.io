@@ -58,7 +58,9 @@ span {
 /** home **/
 
 #home {
-  background: url('http://res.cloudinary.com/dcgoings/image/upload/v1466984946/wallhaven-233516_-_Copy-min_btziyc.jpg') no-repeat center;
+  background: url('http://res.cloudinary.com/dcgoings/image/upload/v1527191177/BLACK_II_desktop-1_xz54rj.jpg') no-repeat center;
+  /* background: url('http://res.cloudinary.com/dcgoings/image/upload/v1527191175/BLACK_I_desktop-1_kr3bvv.jpg') no-repeat center; */
+
   background-size: cover;
   text-align: center;
   min-height: 100vh;
