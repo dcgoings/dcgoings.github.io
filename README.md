@@ -1,2 +1,2 @@
 # dcgoings.github.io
-goings.me
+previously goings.me
